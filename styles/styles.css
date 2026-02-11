@@ -9,3 +9,34 @@ body {
  background-color: #f7a398;
  font-family: "Quicksand", sans-serif;
 }
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 50px;
+    margin: 50px;
+    background-color: #ebdac4;
+}
+
+.card-right {
+  width: 50%;
+  position: relative;
+
+  /* Background floral */
+  background-image: url("/Images/floral.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.card-right img {
+  width: 350px; 
+  position: relative;
+  z-index: 2; /* above background */
+}
