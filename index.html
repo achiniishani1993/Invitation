@@ -8,28 +8,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
     <main>
+        <!-- Fireworks Animation -->
+
       <section class="card">
         <div class="card-left">
-          <h2>The wedding of</h2>
+          <p>The wedding of</p>
           <h1>Anna & Jake</h1>
-          <div>
+          <div class="details">
             <p>April</p>
-            <h2>SUNDAY <span>| 24 |</span>AT 6 PM</h2>
+            <h2>SUNDAY <span>| 24 |</span> AT 6 PM</h2>
             <p>2027</p>
           </div>
           <p>123 Amber street, Malmo city</p>
         </div>
-        <div class="card-right" style="background-image: url(/Images/floral.png);" >
-          <img src="/Images/couple.png" alt="wedding couple"/>
+        <div
+          class="card-right"
+          style="background-image: url(/Images/floral.png)"
+        >
+         
+          <img class="animate__animated animate__swing animate__infinite" src="/Images/couple.png" alt="wedding couple" />
+         
         </div>
       </section>
     </main>
