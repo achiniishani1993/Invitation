@@ -3,3 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+ min-height: 100vh;
+ margin: 0;
+ background-color: #f7a398;
+ font-family: "Quicksand", sans-serif;
+}
